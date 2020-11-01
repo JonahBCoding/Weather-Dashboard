@@ -7,6 +7,13 @@
     text-align: center;
 }
 
+#forecast-container {
+    width: 75%;
+}
+
+#current-img {
+    size: 30px;
+}
 .badge {
     font-size: 15px;
 }

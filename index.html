@@ -15,14 +15,15 @@
         <h1>Weather Dashboard</h1>
     </header>
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 ">
             <div class="row-2">
                 <input type="text" id="city-srch-input" class="city" placeholder="Enter a city name"
                     aria-label="Enter a city name">
                 <input type="submit" id="srch-btn" value="Search" class="button">
+                <div id="search-history">history</div>
             </div>
         </div>
-        <div class="col-8">
+        <div class="col-8" id="weather-container">
             <div class="row mr-0">
                 <div class="col-12 border border-dark m-3 rounded">
                     <div class="row">
@@ -61,12 +62,37 @@
                             <h3>5-Day Forecast</h3>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded" id="card-1"></div>
-                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded" id="card-2"></div>
-                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded" id="card-3"></div>
-                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded" id="card-4"></div>
-                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded" id="card-5"></div>
+                    <div class="row" id="forecast-container">
+                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded" id="card-1">
+                            <p id="date-1"></p>
+                            <img id="icon-1" src="" alt="">
+                            <p id="temp-1"></p>
+                            <p id="hum-1"></p>
+                        </div>
+                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded" id="card-2">
+                            <p id="date-2"></p>
+                            <img id="icon-2" src="" alt="">
+                            <p id="temp-2"></p>
+                            <p id="hum-2"></p>
+                        </div>
+                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded" id="card-3">
+                            <p id="date-3"></p>
+                            <img id="icon-3" src="" alt="">
+                            <p id="temp-3"></p>
+                            <p id="hum-3"></p>
+                        </div>
+                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded" id="card-4">
+                            <p id="date-4"></p>
+                            <img id="icon-4" src="" alt="">
+                            <p id="temp-4"></p>
+                            <p id="hum-4"></p>
+                        </div>
+                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded" id="card-5">
+                            <p id="date-5"></p>
+                            <img id="icon-5" src="" alt="">
+                            <p id="temp-5"></p>
+                            <p id="hum-5"></p>
+                        </div>
                     </div>
                 </div>
             </div>
