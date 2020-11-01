@@ -17,18 +17,9 @@
     <div class="row">
         <div class="col-md-4">
             <div class="row-2">
-                <input type="text" class="city" placeholder="Enter a city">
-                <input type="submit" value="Search" class="button">
-                <ul class="list-group mt-3">
-                    <li class="list-group-item" id="city1">Phoenix, AZ</li>
-                    <li class="list-group-item" id="city2">Los Angeles, CA</li>
-                    <li class="list-group-item" id="city3">Seattle, WA</li>
-                    <li class="list-group-item" id="city4">Dallas, TX</li>
-                    <li class="list-group-item" id="city5">Denver, CO</li>
-                    <li class="list-group-item" id="city6">Boise, ID</li>
-                    <li class="list-group-item" id="city7">New York, NY</li>
-                    <li class="list-group-item" id="city8">New Orleans, LA</li>
-                </ul>
+                <input type="text" id="city-srch-input" class="city" placeholder="Enter a city name"
+                    aria-label="Enter a city name">
+                <input type="submit" id="srch-btn" value="Search" class="button">
             </div>
         </div>
         <div class="col-8">
@@ -36,28 +27,29 @@
                 <div class="col-12 border border-dark m-3 rounded">
                     <div class="row">
                         <div class="col-12">
-                            <span id="city-name" class="city-name align-middle">Placeholder, PL</span>
-                            <img id= "current-img" src="placeholder" alt="">
+                            <span id="city-name" class="city-name align-middle"></span>
+                            <img id="current-img" src="./assets/" alt=""></img>
+
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <p id="temperature">Lorem ipsum dolor sit.</p>
+                            <p id="temperature"></p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <p id="humidity">Lorem ipsum dolor sit.</p>
+                            <p id="humidity"></p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <p id="wind-speed">Lorem, ipsum.</p>
+                            <p id="wind-speed"></p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <p id="UV-index">Lorem ipsum dolor sit.</p>
+                            <p id="UV-index"></p>
                         </div>
                     </div>
                     <div class="row">
@@ -66,17 +58,20 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
-                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
-                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
-                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
-                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
+                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded" id="card-1"></div>
+                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded" id="card-2"></div>
+                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded" id="card-3"></div>
+                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded" id="card-4"></div>
+                        <div class="col forecast bg-primary text-white ml-3 mb-3 rounded" id="card-5"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="./assets/js/script.js"></script>
+<script></script>
 
 </html>
