@@ -11,5 +11,12 @@ https://github.com/JonahBCoding/Weather-Dashboard
 A simple weather app that displays the current weather of a searched city, and also displays a 5-day forecast of the searched city.
 Additionally the user is able to click on a prior searched city and be able to view the current weather and the 5-day forecast again.
 
+## Built using:
+** HTML
+** CSS
+** JavaScript
+** JQuery
+** Bootstrap
+
 ## Screenshot
 
