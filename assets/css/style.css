@@ -6,10 +6,16 @@
     color: whitesmoke;
     text-align: center;
 }
+#search-container {
+    margin-left: 3px;
+    width: 50%;
+}
 
 #forecast-container {
     width: 75%;
 }
+
+
 
 #current-img {
     size: 30px;
