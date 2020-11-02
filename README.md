@@ -12,11 +12,11 @@ A simple weather app that displays the current weather of a searched city, and a
 Additionally the user is able to click on a prior searched city and be able to view the current weather and the 5-day forecast again.
 
 ## Built using:
-** HTML
-** CSS
-** JavaScript
-** JQuery
-** Bootstrap
+*HTML
+*CSS
+*JavaScript
+*JQuery
+*Bootstrap
 
 ## Screenshot
 
