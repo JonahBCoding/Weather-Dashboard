@@ -19,4 +19,4 @@ Additionally the user is able to click on a prior searched city and be able to v
 * Bootstrap
 
 ## Screenshot
-
+![alt text](https://github.com/JonahBCoding/Weather-Dashboard/blob/master/assets/images/Screenshot%20(34).png)
