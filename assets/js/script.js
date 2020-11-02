@@ -130,7 +130,6 @@ $("#srch-btn").on("click", function (event) {
 
         city = $("#city-srch-input").val();
 
-
         searchedCities.push(city);
         localStorage.setItem("searchedCities", JSON.stringify(searchedCities));
 
