@@ -17,7 +17,7 @@ function getSearchHistory() {
     if (searchedCities === null) {
         searchedCities = [];
     }
-    console.log(searchedCities);
+    
 
     for (var i = searchedCities.length - 1; i >= 0; i--) {
         var list = document.createElement('li');
@@ -27,7 +27,9 @@ function getSearchHistory() {
         list.innerText = searchedCities[i];
         recentSearches.appendChild(list);
     }
+
 };
+
 
 // Current Weather Scetion
 var getWeather = function (e) {
@@ -141,6 +143,10 @@ $("#srch-btn").on("click", function (event) {
 
 });
 
+var research = function (value) {
+    cityName.value = value.textContent;
+    getWeather();
+}
 
 
 
